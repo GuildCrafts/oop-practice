@@ -14,3 +14,4 @@ let fee = { adult: 5, child: 10, title: "Entrance Fee"}
 
 
 console.log(multiplyNumeric(fee))
+//github

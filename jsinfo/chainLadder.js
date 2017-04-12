@@ -12,3 +12,6 @@ let ladder = {
     alert( this.step );
   }
 };
+
+
+//test: ladder.up().up().down().showStep();

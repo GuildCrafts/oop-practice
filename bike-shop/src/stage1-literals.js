@@ -1,15 +1,26 @@
 const myBike = {
   // your code here
+  name: "Roadster",
+  price: 199.99,
+  frame: {
+     height: 55,
+     color: "blue",
+     style: "cruiser"
+  },
+
+  brakes: {
+     front: false,
+     back: true
+  },
+
+  tires: {
+     diameter: 22,
+     type: 'fat'
+  },
+  rings: [2,5],
+
 }
 
-let user = {}
-user.name = "John"
-user.surname = "Smith"
-//user.name = "Pete"
-Object.assign (user, {name: "Pete", isAdmin: true})
-delete user.name
-//Object.assign (user, {name: "Pete", isAdmin: true})
 
-console.log(user)
 
 module.exports = myBike

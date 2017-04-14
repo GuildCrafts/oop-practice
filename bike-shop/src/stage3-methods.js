@@ -4,9 +4,8 @@ function Bike() {
     return false;
   };
 
-  this.tires = [];
-  this.tires[0] = new Tire();
-  this.tires[1] = new Tire();
+  this.tires = [new Tire(), new Tire()];
+
 
   this.pedal = function () {
     if (this.tires[0].isFlat() || this.tires[1].isFlat()) {
@@ -28,10 +27,6 @@ function Bike() {
   };
 }
 
-function Frame() {
-  // your code here
-}
-
 function Tire() {
   // your code here
   this.isFlat = function() {
@@ -45,15 +40,14 @@ function Tire() {
   };
 
   this.repair = function () {
-      this.isFlat = function() {
-        return false;
-      };
+    this.isFlat = function() {
+      return false;
+    };
   };
 };
 
 
 module.exports = {
   Bike: Bike,
-  Frame: Frame,
   Tire: Tire
 }

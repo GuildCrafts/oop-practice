@@ -12,7 +12,7 @@ This is the base repository for the [Init 2: OOP Practice with Bike Shop](http:/
 1. Install Node.js and npm
   <br>Follow the instructions in this [Treehouse blog](http://blog.teamtreehouse.com/install-node-js-npm-mac) to install [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) using Homebrew on your Mac.
 1. Do your work in the subdirectories (`bike-shop/`, `jsinfo/`, `music-player/`)
-  <br>Be sure to read the `README.md` files in the subdiretories as well.
+  <br>Be sure to read the `README.md` files in the subdirectories as well.
 
 ## Resources
 

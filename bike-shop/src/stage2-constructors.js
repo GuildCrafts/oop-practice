@@ -1,14 +1,29 @@
-function Bike() {
-  // your code here
+
+function Frame(color, size, style) {
+  this.color = 'black';
+  this.size = 55;
+  this.style = 'street';
 }
 
-function Frame() {
-  // your code here
-}
+let myFrame = new Frame();
+
+function myFrame() {
+  this.color = 'blue',
+  this.size = 60,
+  this.style = 'mountain'
+};
+
+// myFrame.color = 'blue';
+// myFrame.size = 60;
+// myFrame.style = 'mountain';
 
 function Tire() {
-  // your code here
 }
+
+function Bike() {
+
+}
+
 
 module.exports = {
   Bike: Bike,
